@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Maps, Cartography, Data Visualisation"/>
+		<title>Roseline Batcha</title>
+		<!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+
+		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top"> <!-- Create the navbar -->
+      <div class="container">
+        <div class="navbar-header"> <!-- Create the navbar -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+						<span class="glyphicon glyphicon-menu-hamburger"></span><span class="mobile-menu"> Menu</span>
+		      </button> <!-- Hamburger button for smaller devices -->
+			   <a class="navbar-brand" href="indexbasic.html"><img src="assets/mylogo.png" alt="mylogo icon" class="img-responsive center-block" id="logo" />
+					</a> <!-- Brand -->
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div id="navbar" class="collapse navbar-collapse">
+					      <ul class="nav navbar-nav">
+				<li><a href="index.html">Roseline Batcha</a></li>
+		        <li><a href="about.html">About</a></li>
+           		<li><a href="resume.html">Resume</a></li>
+		        <li><a href="contact.html">Contact</a></li>
+		      </ul>
+		    </div> <!--/.navbar-collapse -->
+		  </div> <!--/.container -->
+		</nav> <!--/navigation bar -->
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Contact</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+          <h3><strong>Email:</strong> rbatcha@wisc.edu</h2>
+          <h3><strong>Twitter:</strong> @batcharose</h2>
+          <h3><strong>GitHub:</strong> rbatcha</h2>
+      </div>
+    </div>
+<div class="container">
+				<div class="row">
+				  <section class="4u"></section>
+				  <section class="4u"></section>
+					<section class="4u">
+				  <div class="box"><!-- Content -->
+    <div class="container">
+    <div class="col-sm-8">
+		
+		
+                <h2><strong>CONTACT FORM</strong></h2>
+                <div class="status alert alert-success" style="display: none"></div>
+               <!-- <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">-->
+          <form name="contactform" method="post" action="send_form_email.php">
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <!--<input type="text" class="form-control" required="required" placeholder="First Name">-->
+
+                                <input  type="text" class="form-control"  name="first_name" required="required" placeholder="First Name">
+                            </div>
+
+
+                            <div class="form-group">
+                               <!-- <input type="text" class="form-control" required="required" placeholder="Last Name">-->
+
+                                 <input  type="text" name="last_name" class="form-control" required="required" placeholder="Last Name">
+                            </div>
+
+
+                            <div class="form-group">
+                            <!--    <input type="text" class="form-control" required="required" placeholder="Email address">-->
+
+                                <input  type="text" name="email" class="form-control" required="required" placeholder="Email address">
+                            </div>
+                           
+                          <div class="form-group">
+                            <!--    <input type="text" class="form-control" required="required" placeholder="Email address">-->
+
+                                <!--<input  type="text" name="email" class="form-control" required="required" placeholder="Email address">-->
+                        </div>
+                        </div>
+                        <div class="col-sm-7">
+                          <textarea name="comments" id="comments" required="required" class="form-control" rows="10" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+
+<div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </div>
+          </form>
+        </div><!--/.col-sm-8-->					  
+    </div>
+				  </div>
+				<div class="divider style11 style14"></div>
+			</div>
+	</div>
+		<!--put your external script links here-->
+		<script type="text/javascript" src="lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+   	</body>
+</html>
